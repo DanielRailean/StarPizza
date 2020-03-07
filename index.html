@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StarPizza</title>
     <link rel="stylesheet"  type="text/css" href="css/style.css">
 </head>
@@ -18,7 +19,7 @@
             bacon & chease</p>
         </div>
     </div>
-    <div class="order-box" onload="display()">
+    <div class="order-box">
         <div class="row">
             <div class="item" id="deliveryLabel"><input type="radio" value="delivery" name="isDelivery" id="Delivery" class="nodisplay">
         <label for="Delivery">Delivery</label>
@@ -27,8 +28,11 @@
         <label for="Colection" >Collection</label></div>
         </div>
         <form action="#">
-        <input type="number" placeholder="Phone" id="phone">
-        <input type="submit" value="Order Now" class="pushButton">
+        <div class="row2">
+            <div class="item2"><input type="number" placeholder="Phone" id="phone">
+        </div>
+            <div class="item2"><input type="submit" value="Order Now" class="pushButton"></div>
+        </div>
         </form>
     </div>
     <div class="lower-page">

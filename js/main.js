@@ -1,1 +1,0 @@
-setInterval(alert("hi!"), 1000);

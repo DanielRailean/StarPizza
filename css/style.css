@@ -26,39 +26,37 @@ a{
     display: block;
 }
 .header{
-    padding: 25px;
-    font-size: 1.2rem;
+    padding: 3vw;
+    font-size: 3vw;
 }
-.footer{
-    background-color: rgba(112,112,112,0.37);
+.ads{
+    margin-top: 8vw;
+    font-size: 3.5vw;
+    text-align: center;
 }
 #new{
     background-color: rgba(255,17,0,0.8); 
     color: white;
     margin-bottom: 0;
-    padding: 10px;
-    width: 50px;
+    padding: 1.7vw;
+    width: 10vw;
 }
+
 #milano{
     background-color: rgba(255,255,255,0.43);
     margin-top:0;
-    padding: 10px;
-    width: 150px;
+    padding: 1.8vw;
+    width: 30vw;
 }
-#underMain{
-    
-}
+
 .image{
     background-image: url(../images/main.jpg);
-    height: 375px;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
-.ads{
-    margin-top: 40px;
-    font-size: 1.1rem;
-}
+
 .hidden{
     visibility: hidden;
 }
@@ -66,70 +64,71 @@ a{
     display: block;
     margin:0;
     padding:0;
-    width: 1px;
-    height:1px;
+    width: 0px;
+    height:0px;
 }
 .order-box{
-    width:300px;
-
+    width:80vw;
     position:relative;
-    bottom:100px;
+    bottom:20vh;
     background-color: rgba(255,255,255);
     margin:auto;
-    font-size: 1.6rem;
-    height: 170px;
+    font-size: 6vw;
+    height: 40vw;
     text-align: center;
     border: 1px solid rgba(112,112,112,0.3);
 
 }
 .menu-btn{
-    margin:auto;
-    height: 40px;
-    padding-top: 20px;
+    margin:5vw auto;
+    height: 9vw;
+    padding-top: 4vw;
     background-color: rgba(255,17,0,0.8); 
-    width: 300px;
+    width: 80vw;
     text-align: center;
-    font-size:1.3rem;
-    border-radius: 30px;
+    font-size:5vw;
+    border-radius: 7vw;
 }
 .message{
-    padding: 20px 20px;
+    padding: 5vw;
     text-align: center;
-    font-size: 1.1rem;
-    margin: 20px auto;
-    width: 260px;
-    border-radius: 30px;
-    border: 2px dashed rgba(255,17,0,0.8);
+    font-size: 5vw;
+    margin: 5vw auto;
+    width: 70vw;
+    border-radius: 8vw;
+    border: 0.4vw dashed rgba(255,17,0,0.8);
 }
 input{
-    margin-top: 30px;
-    height: 50px;
-    font-family: 'Spartan', sans-serif;
+    height: 14vw;
+    font-family: 'Spartan', sans-serif;0
     font-weight: bold;
     
 }
 .pushButton{
-    position:relative;
-    right: 7px;
+    height: 14.8vw;
     background-color: #52A73E;
     color:white;
     border:none;
-    height: 55px;
-    width: 110px;
-    bottom:1px;
+    width: 30vw;
+    font-size: 4vw;
+    font-weight: 300;
 }
 #phone{
-    padding-left: 15px;
-    width: 110px;
+    margin-left: 5vw;
+    padding-left: 2vw;
+    width: 90%;;
     color:white;
-    border: 2px solid rgba(112,112,112,0.1);}
+    border: 0.2vw solid rgba(112,112,112,0.1);
+}
 ::placeholder{
+    font-size: 4vw;
+    font-weight: bold;
     color:rgba(112,112,112,0.37);
 }
 .footer{
-    padding:20px;
-    position:relative;
-    top:70px
+    padding:2vw;
+    font-size: 2vw;
+    background-color: rgba(112,112,112,0.37);
 }
 
 .row{
@@ -137,11 +136,24 @@ input{
 }
 .item{
     width: 49%;
-    height: 30px;
+    height: 8vw;
     display: block;
     background-color: rgba(255,17,0,0.8);
     color:white;
-    padding: 10px ;
+    padding: 2vw ;
+    padding-top: 3vw;
+    font-size: 6vw;
+    
+}
+.row2{
+    margin-top: 5.5vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.item2{
+    display: block;
+    width: 100%;
     
 }
 #deliveryLabel{
@@ -149,6 +161,89 @@ input{
     color:red;
 }
 .lower-page{
-    position:relative;
-    bottom:70px
+    margin-top: -20vw;
+}
+@media (max-width: 2556px) and (orientation: landscape) {
+    .header{
+        font-size:1.4rem;
+        padding: 15px;
+        font-weight: 900;
+    }
+    .image{
+        height: 50vh;
+        background-image: url(../images/main-middle.jpg);
+        
+    }
+    #new{
+        width:7vw;
+        height: 4vh;
+        font-size: 2vw;
+    }
+    .ads{
+        margin-top: 2vw;
+    }
+    #milano{
+        height: 8vh;
+        width: 19vw;
+        font-weight: bold;
+        font-size: 1.8vw;
+    }
+    .order-box{
+        bottom: 37vh;
+        height: 45vh;
+        width: 40vw;
+        left:25vw;
+    }
+    .item{
+        height: 8vh;
+        font-size: 3vw;
+        padding: 1vw;
+        padding-top: 2vw;
+        font-weight: 100;
+    }
+    input{
+        height: 12vh;
+        margin-top: 9vh;
+        position: relative;
+    }
+    #phone{
+        width: 15vw;
+    }
+    ::placeholder{
+        font-size: 2vw;
+        padding:1vw;
+    }
+    .pushButton{
+        height: 12.7vh;
+        width: 15vw;
+        font-size: 2vw;
+    }
+    .menu-btn{
+        padding-top:2vw;
+        width: 40vw;
+        height: 6vw;
+        font-size: 3vw;
+        left: 25vw;
+        margin-top: -18vh;
+        position: relative;
+        bottom: 10vh;
+        border-radius: 5vw;
+    }
+    .message{
+        border:none;
+        width: 40vw;
+        height: 20vh;
+        margin-top: -20vh;
+        margin-left: 3vw;
+        font-size:2vw;
+        position: relative;
+        bottom: 20vh;
+    }
+    .row2{
+        margin-top: 0;
+    }
+    .lower-page{
+        margin-top: -10vw;;
+    }
+
 }
