@@ -112,6 +112,8 @@ input{
     width: 30vw;
     font-size: 4vw;
     font-weight: 300;
+    position: relative;
+    right: 1.5vw;
 }
 #phone{
     margin-left: 5vw;
@@ -214,9 +216,10 @@ input{
         padding:1vw;
     }
     .pushButton{
-        height: 12.7vh;
+        height: 12.9vh;
         width: 15vw;
         font-size: 2vw;
+        right: 1.3vw;
     }
     .menu-btn{
         padding-top:2vw;
